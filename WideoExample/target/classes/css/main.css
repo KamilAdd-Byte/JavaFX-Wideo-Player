@@ -1,0 +1,51 @@
+
+.slider{
+    /*-fx-background-color: #a4d5e9;*/
+    /*-fx-arrows-visible: #ea9191;*/
+}
+
+#playButton{
+    -fx-background-image: url("../img/play.png");
+    -fx-background-size: 80 80;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-color: transparent;
+}
+#openLibraryButton{
+    -fx-background-image: url("../img/katalog.png");
+    -fx-background-size: 80 80;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-color: transparent;
+}
+#pauseButton{
+    -fx-background-image: url("../img/stop.png");
+    -fx-background-size: 80 80;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-color: transparent;
+}
+#forrward{
+    -fx-background-image: url("../img/farr.png");
+    -fx-background-size: 80 80;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-color: transparent;
+}
+#prevard{
+    -fx-background-image: url("../img/prev.png");
+    -fx-background-size: 80 80;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-color: transparent;
+}
+#stopButton{
+    -fx-background-image: url("../img/pause.png");
+    -fx-background-size: 80 80;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-color: transparent;
+}
+.combo-box{
+    -fx-background-color: #000000;
+}

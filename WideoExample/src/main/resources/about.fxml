@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="300.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+    <onMouseClicked>#abouteWideoView</onMouseClicked>
+    <children>
+        <TextArea fx:id="about" editable="false" prefHeight="200.0" prefWidth="200.0" text=" Program Media View
+         Projekt: @KamilAdd-Byte  &#10;Wersja programu v1.0  &#10;Wykorzystane materiały:
+&#10;http://youtube.com/watch?v=7Gdxl2045l8/" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0"
+                  AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+    </children>
+</AnchorPane>
