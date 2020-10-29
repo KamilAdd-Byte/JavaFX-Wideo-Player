@@ -1,7 +1,9 @@
 
 .slider{
-    /*-fx-background-color: #a4d5e9;*/
-    /*-fx-arrows-visible: #ea9191;*/
+    /*-fx-background-color: #47945d;*/
+    -fx-arrows-visible: #000000;
+    -fx-border-color: black;
+    -fx-border-style: groove;
 }
 
 #playButton{
