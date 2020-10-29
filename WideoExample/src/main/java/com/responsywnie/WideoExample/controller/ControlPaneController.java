@@ -62,7 +62,7 @@ public class ControlPaneController {
 			FileChooser.ExtensionFilter filter = new FileChooser.ExtensionFilter("Zaznacz plik (*.mp4)",
 					"*.mp4");
 			fileChooser.getExtensionFilters().add(filter);
-			File file = fileChooser.showOpenDialog(null);
+			File file = fileChooser.showOpenDialog();
 			setFilePath(file.toURI().toString());
 			if (filePath != null) {
 				Media media = new Media(filePath);
